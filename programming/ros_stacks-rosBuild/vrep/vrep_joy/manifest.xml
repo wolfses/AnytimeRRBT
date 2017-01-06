@@ -1,0 +1,16 @@
+<package>
+  <description brief="vrep_joy">
+
+     vrep_joy
+
+  </description>
+  <author>formica</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/vrep_joy</url>
+  <depend package="roscpp"/>
+  <depend package="joy"/>
+
+</package>
+
+

@@ -1,0 +1,9 @@
+<stack>
+  <description brief="ROS BubbleRob">rosBubbleRob</description>
+  <author> Maintained by Marc </author>
+  <license></license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ros_bubble_rob</url>
+  <depend stack="ros" />
+  <depend stack="common_msgs" />
+</stack>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="externalIkDemo.cpp" />
+    <ClCompile Include="..\externalIk\3DObject.cpp" />
+    <ClCompile Include="..\externalIk\3Vector.cpp" />
+    <ClCompile Include="..\externalIk\3X3Matrix.cpp" />
+    <ClCompile Include="..\externalIk\4Vector.cpp" />
+    <ClCompile Include="..\externalIk\4X4FullMatrix.cpp" />
+    <ClCompile Include="..\externalIk\4X4Matrix.cpp" />
+    <ClCompile Include="..\externalIk\6Vector.cpp" />
+    <ClCompile Include="..\externalIk\6X6Matrix.cpp" />
+    <ClCompile Include="..\externalIk\7Vector.cpp" />
+    <ClCompile Include="..\externalIk\Ct.cpp" />
+    <ClCompile Include="..\externalIk\Dummy.cpp" />
+    <ClCompile Include="..\externalIk\extIk.cpp" />
+    <ClCompile Include="..\externalIk\extIkSer.cpp" />
+    <ClCompile Include="..\externalIk\ikEl.cpp" />
+    <ClCompile Include="..\externalIk\ikGroup.cpp" />
+    <ClCompile Include="..\externalIk\ikRoutine.cpp" />
+    <ClCompile Include="..\externalIk\jointObject.cpp" />
+    <ClCompile Include="..\externalIk\MainCont.cpp" />
+    <ClCompile Include="..\externalIk\MMatrix.cpp" />
+    <ClCompile Include="..\externalIk\MyMath.cpp" />
+    <ClCompile Include="..\externalIk\ObjCont.cpp" />
+    <ClCompile Include="..\externalIk\Registerediks.cpp" />
+    <ClCompile Include="..\externalIk\Tt.cpp" />
+    <ClCompile Include="..\externalIk\Vector.cpp" />
+    <ClCompile Include="..\remoteApi\extApi.c" />
+    <ClCompile Include="..\remoteApi\extApiPlatform.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\externalIk\3DObject.h" />
+    <ClInclude Include="..\externalIk\3Vector.h" />
+    <ClInclude Include="..\externalIk\3X3Matrix.h" />
+    <ClInclude Include="..\externalIk\4Vector.h" />
+    <ClInclude Include="..\externalIk\4X4FullMatrix.h" />
+    <ClInclude Include="..\externalIk\4X4Matrix.h" />
+    <ClInclude Include="..\externalIk\6Vector.h" />
+    <ClInclude Include="..\externalIk\6X6Matrix.h" />
+    <ClInclude Include="..\externalIk\7Vector.h" />
+    <ClInclude Include="..\externalIk\Ct.h" />
+    <ClInclude Include="..\externalIk\Dummy.h" />
+    <ClInclude Include="..\externalIk\extIk.h" />
+    <ClInclude Include="..\externalIk\extIkSer.h" />
+    <ClInclude Include="..\externalIk\Global.h" />
+    <ClInclude Include="..\externalIk\ikEl.h" />
+    <ClInclude Include="..\externalIk\ikGroup.h" />
+    <ClInclude Include="..\externalIk\ikRoutine.h" />
+    <ClInclude Include="..\externalIk\jointObject.h" />
+    <ClInclude Include="..\externalIk\MainCont.h" />
+    <ClInclude Include="..\externalIk\mathDefines.h" />
+    <ClInclude Include="..\externalIk\MMatrix.h" />
+    <ClInclude Include="..\externalIk\MyMath.h" />
+    <ClInclude Include="..\externalIk\ObjCont.h" />
+    <ClInclude Include="..\externalIk\Registerediks.h" />
+    <ClInclude Include="..\externalIk\Tt.h" />
+    <ClInclude Include="..\externalIk\Vector.h" />
+    <ClInclude Include="..\externalIk\VPoint.h" />
+    <ClInclude Include="..\remoteApi\extApi.h" />
+    <ClInclude Include="..\remoteApi\extApiPlatform.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B9235F5-85AB-4E2E-8923-52445263D126}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>externalIkDemo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\boost_1_54_0</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\boost_1_54_0</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;NON_MATLAB_PARSING;MAX_EXT_API_CONNECTIONS=255;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\externalIk;..\remoteApi;..\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;NON_MATLAB_PARSING;MAX_EXT_API_CONNECTIONS=255;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\externalIk;..\remoteApi;..\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

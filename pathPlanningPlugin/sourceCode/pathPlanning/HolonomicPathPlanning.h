@@ -46,10 +46,10 @@
 #include "PathPlanning.h"
 #include "HolonomicPathNode.h"
 #include "dummyClasses.h"
-#include "MeasurementRegion.h"
+#include "measurementregion.h"
 #include "Obstacles.h"
 #include "Beacon.h"
-#include "Robot.h"
+#include "robot.h"
 #include <vector>
 #include "4Vector.h"
 #include "7Vector.h"

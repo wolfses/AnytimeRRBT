@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CDlgPathVelocityProfile</class>
+ <widget class="QDialog" name="CDlgPathVelocityProfile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>306</width>
+    <height>132</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Path Velocity Profile</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QCheckBox" name="qqTurningCircleCheck">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>231</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="text">
+    <string>Turning circle diameter for 50% velocity</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qqTurningCircleValue">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="qqRelativeVelocityCheck">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>231</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="text">
+    <string>Relative velocity at rotation axis change</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qqRelativeVelocityValue">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="qqEndPointsZero">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>231</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="text">
+    <string>Zero velocity at end-points</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>211</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Relative acceleration</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="qqRelativeAcceleration">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>70</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="qqClose">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>100</y>
+     <width>281</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Close</set>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>qqTurningCircleCheck</tabstop>
+  <tabstop>qqTurningCircleValue</tabstop>
+  <tabstop>qqRelativeVelocityCheck</tabstop>
+  <tabstop>qqRelativeVelocityValue</tabstop>
+  <tabstop>qqEndPointsZero</tabstop>
+  <tabstop>qqRelativeAcceleration</tabstop>
+  <tabstop>qqClose</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

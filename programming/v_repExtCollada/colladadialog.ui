@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CColladaDialog</class>
+ <widget class="QDialog" name="CColladaDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Collada Import/Export</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>291</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Collada import</string>
+   </property>
+   <widget class="QCheckBox" name="qqImportMeshesOnly">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>151</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Import meshes only</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="qqMergeImport">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>151</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Merge imported meshes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Scaling factor</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="qqImportScalingFactor">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="qqImport">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>110</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Import</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="qqImportUngroup">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>181</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ungroup grouped meshes</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>291</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Collada export</string>
+   </property>
+   <widget class="QCheckBox" name="qqExportShapesOnly">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>151</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Export shapes only</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="qqExportScalingFactor">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Scaling factor</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="qqExportAnimation">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>271</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Export animation (started at next simulation run)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="qqExport">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Export</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>271</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>(only visible shapes will be exported)</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>qqMergeImport</tabstop>
+  <tabstop>qqImportMeshesOnly</tabstop>
+  <tabstop>qqImportUngroup</tabstop>
+  <tabstop>qqImportScalingFactor</tabstop>
+  <tabstop>qqImport</tabstop>
+  <tabstop>qqExportAnimation</tabstop>
+  <tabstop>qqExportShapesOnly</tabstop>
+  <tabstop>qqExportScalingFactor</tabstop>
+  <tabstop>qqExport</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

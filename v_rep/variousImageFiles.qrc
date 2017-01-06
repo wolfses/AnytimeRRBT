@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>variousImageFiles/downArrow.png</file>
+        <file>variousImageFiles/leftArrow.png</file>
+        <file>variousImageFiles/rightArrow.png</file>
+        <file>variousImageFiles/upArrow.png</file>
+        <file>variousImageFiles/v_repIcon16.png</file>
+    </qresource>
+</RCC>

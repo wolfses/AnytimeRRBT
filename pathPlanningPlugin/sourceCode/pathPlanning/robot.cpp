@@ -1,4 +1,4 @@
-#include "Robot.h"
+#include "robot.h"
 
 std::vector<SRobotParam> CRobot::robots;
 

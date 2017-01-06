@@ -41,6 +41,7 @@
 //
 // This file was automatically created for V-REP release V3.1.2 on June 16th 2014
 
+#include <stdio.h>
 #include "NonHolonomicPathPlanning.h"
 #include "pathPlanningInterface.h"
 #include "v_repLib.h"
@@ -633,7 +634,7 @@ void CNonHolonomicPathPlanning::getPathData(std::vector<float>& data)
 
 	C7Vector startVector(_startDummyLTM.Q.getEulerAngles());
 	double startEuler = startVector(2);
-	double pathEuler = startVector(2);	//�ʱⰪ
+	double pathEuler = startVector(2);	//\C3ʱⰪ
 
 	double next_dist = 0.35;	
 	int idx=0;

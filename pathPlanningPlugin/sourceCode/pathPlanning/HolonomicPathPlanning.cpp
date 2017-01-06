@@ -45,7 +45,7 @@
 #include "pathPlanningInterface.h"
 #include "v_repLib.h"
 #include "Obstacles.h"
-#include "MeasurementRegion.h"
+#include "measurementregion.h"
 #include "StaticData.h"
 #include "Belief.h"
 #include <Eigen/Dense>

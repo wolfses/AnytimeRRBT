@@ -1,0 +1,18 @@
+<package>
+  <description brief="vrep_skeleton_msg_and_srv">
+
+     vrep_skeleton_msg_and_srv
+
+  </description>
+  <author>marc</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/vrep_skeleton_msg_and_srv</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+
+</package>
+
+
