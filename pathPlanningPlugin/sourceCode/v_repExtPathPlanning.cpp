@@ -41,6 +41,7 @@
 //
 // This file was automatically created for V-REP release V3.2.0 on Feb. 3rd 2015
 
+#include <unistd.h>
 #include "v_repExtPathPlanning.h"
 #include "v_repLib.h"
 #include <iostream>

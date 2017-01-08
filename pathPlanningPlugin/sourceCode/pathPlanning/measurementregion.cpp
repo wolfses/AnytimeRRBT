@@ -1,4 +1,4 @@
-#include "MeasurementRegion.h"
+#include "measurementregion.h"
 #include "Region.h"
 #include <iterator>
 #include <vector>

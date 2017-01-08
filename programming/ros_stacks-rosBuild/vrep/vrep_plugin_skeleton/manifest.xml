@@ -1,0 +1,17 @@
+<package>
+  <description brief="vrep_plugin_skeleton">
+
+     vrep_plugin_skeleton
+
+  </description>
+  <author>marc</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/vrep_plugin_skeleton</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="vrep_skeleton_msg_and_srv"/>
+
+</package>
+
+

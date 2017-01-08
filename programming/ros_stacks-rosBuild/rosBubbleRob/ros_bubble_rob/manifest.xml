@@ -1,0 +1,20 @@
+<package>
+  <description brief="ros_bubble_rob">
+
+     ros_bubble_rob
+
+  </description>
+  <author>marc</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ros_bubble_rob</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="vrep_common"/>
+  <depend package="image_transport"/>
+
+</package>
+
+

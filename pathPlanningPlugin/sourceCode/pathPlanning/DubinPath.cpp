@@ -34,6 +34,7 @@
 
 /* Author: Mark Moll */
 
+#include <stdio.h>
 #include <algorithm>
 #include "DubinPath.h"
 #include "v_repLib.h"
